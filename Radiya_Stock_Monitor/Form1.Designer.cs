@@ -45,7 +45,7 @@
             this.btnCheckStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckStock.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnCheckStock.ForeColor = System.Drawing.Color.White;
-            this.btnCheckStock.Location = new System.Drawing.Point(874, 650);
+            this.btnCheckStock.Location = new System.Drawing.Point(862, 650);
             this.btnCheckStock.Name = "btnCheckStock";
             this.btnCheckStock.Size = new System.Drawing.Size(93, 60);
             this.btnCheckStock.TabIndex = 0;
@@ -70,11 +70,11 @@
             this.dgvStockList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvStockList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvStockList.EnableHeadersVisualStyles = false;
-            this.dgvStockList.Location = new System.Drawing.Point(324, 187);
+            this.dgvStockList.Location = new System.Drawing.Point(172, 192);
             this.dgvStockList.Name = "dgvStockList";
             this.dgvStockList.RowHeadersWidth = 82;
             this.dgvStockList.RowTemplate.Height = 37;
-            this.dgvStockList.Size = new System.Drawing.Size(632, 348);
+            this.dgvStockList.Size = new System.Drawing.Size(900, 400);
             this.dgvStockList.TabIndex = 1;
             this.dgvStockList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStockList_CellContentClick);
             // 
