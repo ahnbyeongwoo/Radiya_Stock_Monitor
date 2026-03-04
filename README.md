@@ -1,4 +1,4 @@
-# 📦 Odoo ERP 연동 실시간 재고 모니터링 시스템
+# Odoo ERP 연동 실시간 재고 모니터링 시스템
 > **PostgreSQL DB와 C# WinForms를 활용한 ERP 툴 개발 프로젝트**
 
 ## 프로젝트 개요
@@ -18,9 +18,9 @@
 * **Server**: Ubuntu 기반의 Odoo ERP 서버 및 PostgreSQL DB 운영.
 * **Client**: Npgsql 라이브러리를 통해 외부 대역에서 DB 접근 제어 정책(pg_hba.conf)을 통과하여 데이터를 수집.
 
-### 🛰️ 원격 DB 접속 보안 설정
+### 원격 DB 접속 보안 설정
 * **문제**: 외부 IP 접속 시 PostgreSQL 인증 실패(`28P01`) 오류.
 * **해결**: `pg_hba.conf`의 접근 제어 목록(ACL) 수정 및 인증 방식 최적화를 통해 보안과 연결성 확보.
 
-## 5. 최종 시연
+## 최종 시연
 * 버튼 클릭 시 실시간으로 ERP 재고 데이터를 호출하여 대시보드 업데이트 완료.
