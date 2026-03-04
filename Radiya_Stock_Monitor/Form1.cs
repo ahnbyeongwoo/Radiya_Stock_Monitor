@@ -13,7 +13,6 @@ namespace Radiya_Stock_Monitor
             InitializeComponent();
         }
 
-        // 노션 원본 코드 고정
         private void btnCheckStock_Click_1(object sender, EventArgs e)
         {
             string connString = "Host=*;Username=odoo;Password=*;Database=odoo_practice";
@@ -34,7 +33,7 @@ namespace Radiya_Stock_Monitor
                     DataTable dt = new DataTable();
                     da.Fill(dt);
 
-                    dgvStockList.DataSource = dt; // 디자인의 (Name)과 일치해야 함
+                    dgvStockList.DataSource = dt; // 디자인 name 일치 확인함
 
                     if (dt.Rows.Count > 0)
                         MessageBox.Show($"재고 부족 품목이 {dt.Rows.Count}건 발견되었습니다.", "경고", MessageBoxButtons.OK, MessageBoxIcon.Warning);
